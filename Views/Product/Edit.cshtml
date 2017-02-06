@@ -1,0 +1,17 @@
+﻿@model Lab05.Models.NorthWind.Product
+
+@{ ViewBag.Title = "Edit Product"; }
+
+@using (Html.BeginForm())
+{
+    <fieldset>
+        @Html.AntiForgeryToken()
+        <legend>@ViewBag.Title</legend>
+        @Html.EditorForModel()
+        <p><input type="submit" value="Save" /></p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

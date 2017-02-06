@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Lab05-20170206123855.mdf;Initial Catalog=aspnet-Lab05-20170206123855;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Intranet\\Lab05\\Lab05\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="NorthwindEntities-Web.config Connection String" description="NorthwindEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.NorthWind.NorthWindDataModel.csdl|res://*/Models.NorthWind.NorthWindDataModel.ssdl|res://*/Models.NorthWind.NorthWindDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=max.bcit.ca;initial catalog=Northwind;persist security info=True;user id=bcitnw;password=Bc1tN0rth;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Intranet\\Lab05\\Lab05\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NorthwindEntities']/@connectionString" />
+  </parameter>
+</parameters>
